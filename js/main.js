@@ -100,3 +100,17 @@
     
 })(jQuery);
 
+document.getElementById("contact-us-btn").addEventListener('click' , function(){
+    document.querySelector('.bg-pop-up').style.display = 'flex';
+    document.querySelector('.section-title').style.opacity = '0';
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);};
+})
+document.querySelector(".close-popup").addEventListener('click' , function(){
+    document.querySelector('.bg-pop-up').style.display = 'none';
+    document.querySelector('.section-title').style.opacity = '1';
+    window.onscroll=function(){};
+})
+
+
