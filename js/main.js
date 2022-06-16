@@ -142,10 +142,13 @@ document.querySelector(".close-popup").addEventListener('click' , function(){
 const btn = document.getElementById('sendMessageButton');
 btn.addEventListener('click' , function(e){
     e.preventDefault()
+    const number = document.getElementById('pop-up-number').value;
+    const body = document.getElementById('pop-up-message').value
     const params = {
         from_name : document.getElementById('pop-up-name').value,
         email_id : document.getElementById('pop-up-email').value,
-        message : document.getElementById('pop-up-message').value
+        message : " Content : " + body ,
+        number : document.getElementById('pop-up-number').value
     }
    
    emailjs.send("service_i9hwmso" , "template_1z7wnc6" , params).then(function(res){
