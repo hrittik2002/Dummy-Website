@@ -7806,7 +7806,7 @@ button.bg-dark:focus {
 
 .pr-3,
 .px-3 {
-  padding-right: 1rem !important;
+  padding-right: 0rem !important;
 }
 
 .pb-3,
@@ -7816,7 +7816,7 @@ button.bg-dark:focus {
 
 .pl-3,
 .px-3 {
-  padding-left: 1rem !important;
+  padding-left: 0rem !important;
 }
 
 .p-4 {
@@ -8575,7 +8575,7 @@ button.bg-dark:focus {
   }
   .pr-md-5,
   .px-md-5 {
-    padding-right: 3rem !important;
+    padding-right: 0rem !important;
   }
   .pb-md-5,
   .py-md-5 {
@@ -9946,7 +9946,8 @@ a.text-dark:hover, a.text-dark:focus {
     cursor: pointer;
   }
   #logo-header{
-    height: 80px;
+    height: 70px;
+    width: 100px;
     margin-bottom: 20px;
   }
 }
@@ -9998,6 +9999,9 @@ a.text-dark:hover, a.text-dark:focus {
   #contact-us-btn{
     display: flex;
     justify-content: center;
+  }
+  #image-header{
+    margin-top: 7px;
   }
   /* #contact-us-btn{
     width: 100%;
