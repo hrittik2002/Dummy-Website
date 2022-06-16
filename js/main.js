@@ -103,6 +103,7 @@
 document.getElementById("contact-us-btn").addEventListener('click' , function(){
     document.querySelector('.bg-pop-up').style.display = 'flex';
     document.querySelector('.section-title').style.opacity = '0';
+    document.querySelector('html').scrollBehavior = 'initial';
     var x=window.scrollX;
     var y=window.scrollY;
     window.onscroll=function(){window.scrollTo(x, y);};
