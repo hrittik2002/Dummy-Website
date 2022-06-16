@@ -9774,11 +9774,13 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: #17a2b8;
+  margin: auto;
 }
 
 @media (max-width: 991.98px) {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
+    margin: auto;
   }
 }
 
@@ -9987,11 +9989,32 @@ a.text-dark:hover, a.text-dark:focus {
     cursor: pointer;
   }
   #logo-header{
-    height: 50px;
-    margin-bottom: 10px;
+    height: 30px;
+    margin-bottom: 0px;
   }
   #logo-text-header{
-    font-size: 36px;
+    font-size: 28px;
   }
+  #contact-us-btn{
+    display: flex;
+    justify-content: center;
+  }
+  /* #contact-us-btn{
+    width: 100%;
+  } */
 }
 
+.services-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.services-li{
+  text-align: left;
+}
+.image-header-container{
+  width: 80%;
+}
+.image-header{
+  width: 80%;
+}
