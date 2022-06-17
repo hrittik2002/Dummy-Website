@@ -9962,8 +9962,8 @@ a.text-dark:hover, a.text-dark:focus {
     display: none;
   }
   .pop-up-content{
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 80%;
     background-color: white;
     margin: auto;
     border-radius: 6px;
